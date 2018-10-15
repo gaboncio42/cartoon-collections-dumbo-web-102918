@@ -7,8 +7,8 @@ def roll_call_dwarves(dwarves)
   puts new_dwarves
 end
 
-def summon_captain_planet(veggies)
-  veggies.collect { |veggie| veggie.upcase + "!"}
+def summon_captain_planet(calls)
+  calls.collect {|call| call.upcase + "!"}
 end
 
 def long_planeteer_calls# code an argument here
