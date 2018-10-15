@@ -19,10 +19,7 @@ end
 
 def find_the_cheese(ingredients)
   types_cheese = ["cheddar", "gouda", "camembert"]
-  if ingredients.include?("cheddar") == true
-    puts "cheddar"
-  else ingredients.include?(types_cheese) == false
-    puts nil
-  end
+  ingredients.find do |cheese|
+    if cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
 end
     
