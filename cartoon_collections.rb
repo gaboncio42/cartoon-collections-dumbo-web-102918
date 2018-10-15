@@ -8,11 +8,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  new_calls = []
-  calls.each do |call|
-    new_calls.push(call.upcase + "!")
-  end
-  puts new_calls
+  calls.collect { |call| call.upcase + "!"}
 end
 
 end
