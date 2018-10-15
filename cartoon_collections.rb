@@ -21,7 +21,7 @@ def find_the_cheese(ingredients)
   types_cheese = ["cheddar", "gouda", "camembert"]
   if ingredients.include?(types_cheese) == true
     puts "cheddar"
-  else ingredients.include(types_cheese) == false
+  else ingredients.include?(types_cheese) == false
     puts nil
   end
 end
