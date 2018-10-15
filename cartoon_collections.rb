@@ -18,5 +18,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(ingrediens)
-  types_cheese = []
+  types_cheese = ["cheddar", "gouda", ]
 end
