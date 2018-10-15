@@ -13,7 +13,7 @@ def summon_captain_planet(calls)
     new_calls.push(call.upcase + "!")
   end
   puts new_calls
-  end
+end
 
 end
 
